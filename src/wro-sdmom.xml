@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<groups xmlns="http://www.isdc.ro/wro" 
+<groups xmlns="http://www.isdc.ro/wro"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
 
@@ -26,7 +26,7 @@
     <js>/defaults/js/Search.js</js>
     <js>/defaults/js/PageBuilder.js</js>
   </group>
-  
+
   <group name='myCollectionSpace'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -43,12 +43,12 @@
     <js>/defaults/js/Header.js</js>
     <js>/defaults/js/Footer.js</js>
     <js>/defaults/js/MessageBar.js</js>
-    <js>/defaults/js/ListView.js</js>
+    <js>/tenants/sdmom/js/ListView.js</js>
     <js>/defaults/js/Search.js</js>
     <js>/defaults/js/MyCollectionSpace.js</js>
     <js>/defaults/js/PageBuilder.js</js>
   </group>
-  
+
   <group name='advancedsearch'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -88,7 +88,7 @@
     <js>/defaults/js/DatePicker.js</js>
     <js>/defaults/tools/uispecVerifier/js/uispecVerifier.js</js>
   </group>
-  
+
   <group name='findedit'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -108,7 +108,7 @@
     <js>/defaults/js/Search.js</js>
     <js>/defaults/js/PageBuilder.js</js>
   </group>
-  
+
   <group name='index'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -125,7 +125,7 @@
     <js>/defaults/js/Footer.js</js>
     <js>/defaults/js/PageBuilder.js</js>
   </group>
-  
+
   <group name='administration'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -157,7 +157,7 @@
     <js>/defaults/js/Repeatable.js</js>
     <js>/defaults/js/TitleBar.js</js>
     <js>/defaults/js/Tabs.js</js>
-    <js>/defaults/js/ListView.js</js>
+    <js>/tenants/sdmom/js/ListView.js</js>
     <js>/defaults/js/Admin.js</js>
     <js>/defaults/js/Search.js</js>
     <js>/defaults/js/RecordTraverser.js</js>
@@ -167,7 +167,7 @@
     <js>/defaults/lib/datejs/src/parser.js</js>
     <js>/defaults/js/PageBuilder.js</js>
   </group>
-  
+
   <group name='record'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
@@ -194,6 +194,7 @@
     <js>/defaults/js/SearchBox.js</js>
     <js>/defaults/js/Header.js</js>
     <js>/defaults/js/InputValidator.js</js>
+    <js>/defaults/js/ComputedField.js</js>
     <js>/defaults/js/Footer.js</js>
     <js>/defaults/js/MessageBar.js</js>
     <js>/defaults/js/Confirmation.js</js>
@@ -217,7 +218,7 @@
     <js>/defaults/js/MediaView.js</js>
     <js>/defaults/js/Hierarchy.js</js>
     <js>/defaults/js/ReportProducer.js</js>
-    <js>/defaults/js/ListView.js</js>
+    <js>/tenants/sdmom/js/ListView.js</js>
     <js>/defaults/js/RelatedRecordsTab.js</js>
     <js>/defaults/js/PageBuilder.js</js>
     <js>/defaults/lib/datejs/src/globalization/en-US.js</js>
@@ -229,7 +230,7 @@
     <js>/defaults/js/RecordHistory.js</js>
     <js>/defaults/tools/uispecVerifier/js/uispecVerifier.js</js>
   </group>
-  
+
   <group name='template'>
     <css>/defaults/lib/infusion/framework/fss/css/fss-reset.css</css>
     <css>/defaults/lib/infusion/framework/fss/css/fss-layout.css</css>
